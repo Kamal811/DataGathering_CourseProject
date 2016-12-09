@@ -7,7 +7,7 @@ colActivityNames <- c("WALKING" ,
                       "STANDING",
                       "LAYING")
 
-##**********************Read the training data set into data frame
+##*********************Read the training data set into data frame
 X_train <- read.table("X_train.txt", 
                fill=FALSE, 
                strip.white=TRUE, stringsAsFactors = FALSE)
