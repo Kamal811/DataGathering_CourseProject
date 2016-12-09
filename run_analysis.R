@@ -160,7 +160,7 @@ total_acc_z <- rbind(total_acc_z_train , total_acc_z_test)
 
 
 
-##******************Merged all data with mean and srandard deviations and column names for each obsrvation
+##******************Merged all data with mean and srandard deviations and column names for each observation
 
 Complete_Mean_StdDev <- data.frame( Obs = numeric() ,Subject = character() , Activity = character(), X_Merged_Avg = numeric() , X_Merged_StdDev = numeric() , 
                                     body_acc_x_avg = numeric(), body_acc_x_stddev = numeric() , 

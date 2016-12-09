@@ -1,0 +1,87 @@
+The following are the overall set of steps for the execution logic
+
+1. Set the Activity Names from the subject file
+2. Read the training data set into data frame
+3. Read the test data set into data frame
+4. Merge the training and test files of each type
+5. Merged all data with mean and srandard deviations and column names for each observation
+
+The following file contains explanations of various variables used in the system
+
+##**********************Set the Activity Names from the subject file
+
+colActivityNames <- List of activity names as part of readings
+
+##**********************Read the training data set into data frame
+X_train <- Training data for X at root
+Y_train <- Training data for Y at root
+Subject_train <- Training data for subject
+
+body_acc_x_train <- Training data for body acc at x axis
+body_acc_y_train <- Training data for body acc at y axis
+body_acc_z_train <- Training data for body acc at z axis
+
+##************
+
+body_gyro_x_train <- Training data for body gyro at x axis
+body_gyro_y_train <- Training data for body gyro at y axis
+body_gyro_z_train <- Training data for body gyro at z axis
+
+
+##*************************
+
+
+total_acc_x_train <- Training data for total acc at x axis
+total_acc_y_train <- Training data for total acc at y axis
+total_acc_z_train <- Training data for total acc at z axis
+
+
+##**********************Read the test data set into data frame
+
+
+X_test <- Test data for X at root
+Y_test <- Test data for Activity at root
+Subject_test <- Test data for Subject at root
+
+
+body_acc_x_test <- Test data for body acc at x axis
+body_acc_y_test <- Test data for body acc at y axis
+body_acc_z_test <- Test data for body acc at z axis
+
+##************
+
+body_gyro_x_test <- Test data for body gyro at x axis
+body_gyro_y_test <- Test data for body gyro at y axis
+body_gyro_z_test <- Test data for body gyro at z axis
+
+##*************************
+
+total_acc_x_test <- Test data for total acc at x axis
+total_acc_y_test <- Test data for total acc at y axis
+total_acc_z_test <- Test data for total acc at z axis
+
+##********************Merge the training and test files of each type
+
+X_Merged <- Merged X at root
+Y_Merged <- Merged activity data at root
+
+##****************************************************
+body_acc_x <- Merged data for body acc at x 
+body_acc_y <- Merged data for body acc at y
+body_acc_z <- Merged data for body acc at z
+
+##************
+body_gyro_x <- Merged data for body gyro at x 
+body_gyro_y <- Merged data for body gyro at y
+body_gyro_z <- Merged data for body gyro at z 
+
+
+##******
+
+total_acc_x <- Merged data for total acc at x  
+total_acc_y <- Merged data for total acc at y
+total_acc_z <- Merged data for total acc at z 
+
+##******************Merged all data with mean and srandard deviations and column names for each observation
+
+Complete_Mean_StdDev <- Data Frame for the merged mean and standard deviation for each data point
